@@ -6,7 +6,9 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
-
+    int x;
+    scanf("%d",&x);
+    
+    printf("%d%d%d",x%10, (x/10)%10, x/100);
     return 0;
 }
